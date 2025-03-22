@@ -23,7 +23,7 @@
 .comic__img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .cloud-img {
@@ -182,6 +182,8 @@
     }
 }
 
+.cloud1,
+.cloud2,
 .cloud3,
 .cloud4,
 .cloud5,
@@ -199,7 +201,257 @@
     animation: fadeIn 2s ease-in-out;
 }
 
+
 @media (min-width: 576px) {
+    .comic__img{
+        object-fit: contain;
+    }
+    .comic__item3 .cloud4{
+        left: 170px;
+        transform: scaleX(-1) scaleY(-1);
+        bottom: -60px; 
+
+
+    }
+    .comic__item3 .text4 {
+        transform: scaleX(-1) scaleY(-1);
+        bottom: 210px; 
+    }
+    .comic__item4 .cloud5{
+        left: 190px;
+        transform: scaleX(-1) scaleY(-1);
+        bottom: -50px; 
+    }
+    .comic__item4 .text5 {
+        transform: scaleX(-1) scaleY(-1);
+        bottom: 210px; 
+    }
+    .comic__item6 .cloud6{
+        left: 5px;
+        transform: scaleX(-1) scaleY(-1);
+        bottom: -50px; 
+
+    }
+    .comic__item6 .text6{
+        transform: scaleX(-1) scaleY(-1);
+        bottom: 200px; 
+    }
+    .comic__item6 .cloud7{
+        left: 200px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    .comic__item6 .text7{
+        bottom: 160px;
+        left: 60px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    
+    .comic__item8 .cloud1{
+        left: 5px;
+        transform: scaleX(-1) scaleY(-1);
+        bottom: -40px; 
+        
+
+    }
+    .comic__item8 .text1{
+        transform: scaleX(-1) scaleY(-1);
+        bottom: 265px; 
+    }
+    .comic__item8 .cloud2{
+        left: 235px;
+        
+
+    }
+}
+
+  
+  
+@media (min-width: 768px) {
+    .comic__img{
+        object-fit: cover;
+    }
+    .comic__item3 .cloud4{
+        left: 350px;
+
+    }
+    .comic__item4 .cloud5{
+        left: 350px;
+    }
+    .comic__item6 .cloud6{
+        left: 50px;
+
+    }
+    .comic__item6 .cloud7{
+        left: 370px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    .comic__item6 .text7{
+        bottom: 160px;
+        left: 65px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    
+    .comic__item8 .cloud1{
+        left: 50px;
+    }
+    .comic__item8 .cloud2{
+        left: 370px;
+    }
+  }
+  
+  
+@media (min-width: 992px) {
+    .comic__img{
+        object-fit: cover;
+    }
+    .comic__item3 .cloud4{
+        left: 120px;
+    }
+    .comic__item4 .cloud5{
+        left: 210px;
+    }
+    .comic__item6 .cloud6{
+        left: 30px;
+    }
+    .comic__item6 .cloud7{
+        left: 200px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    .comic__item6 .text7{
+        bottom: 160px;
+        left: 60px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+
+    .comic__item8 .cloud1{
+        left: 50px;
+    }
+    .comic__item8 .cloud2{
+        left: 230px;
+    }
+    
+  }
+  
+  
+@media (min-width: 1200px) {
+    .comic__img{
+        /* width: 500px; */
+        object-fit: cover;
+    }
+
+    .comic__item3 .cloud4{
+        left: 180px;
+    }
+    .comic__item4 .cloud5{
+        left: 250px;
+    }
+    .comic__item6 .cloud6{
+        left: 30px;
+    }
+    .comic__item6 .cloud7{
+        left: 230px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    .comic__item6 .text7{
+        bottom: 160px;
+        left: 60px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+
+    .comic__item8 .cloud1{
+        left: 50px;
+    }
+    .comic__item8 .cloud2{
+        left: 290px;
+    }
+   
+  }
+  
+  
+@media (min-width: 1400px) {
+    .comic__img{
+        object-fit: cover;
+    }
+    .comic__item6 .cloud7{
+        left: 250px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    .comic__item6 .text7{
+        bottom: 160px;
+        left: 60px;
+        transform: scaleX(-1) scaleY(-1);
+    }
+    
+  }
+
+@media(max-width:900px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .comic__item5 .cloud1 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item5 .cloud-img1 {
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    .comic__item5 .cloud2 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .comic__item5 .cloud-img2 {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* @media(max-width: 768px){
+    .comic__item {
+        width: 100%;
+    }
+    .comic__item5 .cloud1 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item5 .cloud-img1 {
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    .comic__item5 .cloud2 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .comic__item5 .cloud-img2 {
+        transform: rotate(180deg);
+    }
+}
+@media(min-width: 769px) and (max-width: 1024px){
     .comic__item3 .cloud4{
         left: 170px;
         transform: scaleX(-1) scaleY(-1);
@@ -257,140 +509,4 @@
 
     }
 
-  
-  
-@media (min-width: 768px) {
-    .comic__item3 .cloud4{
-        left: 350px;
-
-    }
-    .comic__item4 .cloud5{
-        left: 350px;
-    }
-    .comic__item6 .cloud6{
-        left: 50px;
-
-    }
-    .comic__item6 .cloud7{
-        left: 370px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-    .comic__item6 .text7{
-        bottom: 160px;
-        left: 65px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-    
-    .comic__item8 .cloud1{
-        left: 50px;
-    }
-    .comic__item8 .cloud2{
-        left: 370px;
-    }
-  }
-  
-  
-@media (min-width: 992px) {
-    .comic__item3 .cloud4{
-        left: 120px;
-    }
-    .comic__item4 .cloud5{
-        left: 210px;
-    }
-    .comic__item6 .cloud6{
-        left: 30px;
-    }
-    .comic__item6 .cloud7{
-        left: 200px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-    .comic__item6 .text7{
-        bottom: 160px;
-        left: 60px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-
-
-    .comic__item8 .cloud1{
-        left: 50px;
-    }
-    .comic__item8 .cloud2{
-        left: 230px;
-    }
-    
-  }
-  
-  
-@media (min-width: 1200px) {
-    .comic__item3 .cloud4{
-        left: 180px;
-    }
-    .comic__item4 .cloud5{
-        left: 250px;
-    }
-    .comic__item6 .cloud6{
-        left: 30px;
-    }
-    .comic__item6 .cloud7{
-        left: 230px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-    .comic__item6 .text7{
-        bottom: 160px;
-        left: 60px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-
-
-    .comic__item8 .cloud1{
-        left: 50px;
-    }
-    .comic__item8 .cloud2{
-        left: 290px;
-    }
-   
-  }
-  
-  
-@media (min-width: 1400px) {
-    .comic__item6 .cloud7{
-        left: 250px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-    .comic__item6 .text7{
-        bottom: 160px;
-        left: 60px;
-        transform: scaleX(-1) scaleY(-1);
-    }
-    
-  }
-
-@media(max-width:900px) {
-    .comic__item {
-        width: 100%;
-    }
-}
-
-@media(max-width:600px) {
-    .comic__item5 .cloud1 {
-        width: 200px;
-        top: 100px;
-        left: 0;
-
-    }
-
-    .comic__item5 .cloud-img1 {
-        transform: scaleX(-1) scaleY(-1);
-    }
-
-    .comic__item5 .cloud2 {
-        position: absolute;
-        width: 200px;
-        right: 50px;
-        bottom: 50px;
-    }
-
-    .comic__item5 .cloud-img2 {
-        transform: rotate(180deg);
-    }
-}
+} */
